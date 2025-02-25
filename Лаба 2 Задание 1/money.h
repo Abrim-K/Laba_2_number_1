@@ -1,9 +1,9 @@
 #include <iostream>
 
 class money {
-public:
 	int banknote_nominal;
 	int banknote_count;
+public:
 	money(int nominal, int count)
 	{
 		banknote_nominal = nominal;
@@ -11,8 +11,8 @@ public:
 	}
 	void print()
 	{
-		std::cout << "Íîìèíàë êóïþðû: " << banknote_nominal
-			<< "\tÊîëè÷åñòâî êóïþð: " << banknote_count << std::endl;
+		std::cout << "ÃÃ®Ã¬Ã¨Ã­Ã Ã« ÃªÃ³Ã¯Ã¾Ã°Ã»: " << banknote_nominal
+			<< "\tÃŠÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® ÃªÃ³Ã¯Ã¾Ã°: " << banknote_count << std::endl;
 	}
 	int sum()
 	{
